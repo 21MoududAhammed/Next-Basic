@@ -23,10 +23,13 @@ export default function RootLayout({ children }) {
               <CustomLink path={"/dashboard/settings"}>Settings</CustomLink>{" "}
             </li>
             <li>
-              <CustomLink path={"/dashboard"}>Dashboard</CustomLink>{" "}
+              <CustomLink path={"/dashboard"} >Dashboard</CustomLink>{" "}
             </li>
             <li>
-              <CustomLink path={"/analytics"}>Analytics</CustomLink>{" "}
+              <CustomLink path={"/analytics"} prefetch={false}>Analytics</CustomLink>{" "}
+            </li>
+            <li>
+              <CustomLink path={"/heavy"} >Heavy</CustomLink>{" "}
             </li>
            
           </ul>
