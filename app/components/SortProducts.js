@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation'
  
 export default function SortProducts() {
   const searchParams = useSearchParams()
-  console.log(searchParams.toString());
+  // console.log(searchParams.toString());
  
   function updateSorting(sortOrder) {
     const params = new URLSearchParams(searchParams.toString())
